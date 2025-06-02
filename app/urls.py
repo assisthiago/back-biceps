@@ -11,12 +11,18 @@ from rest_framework_simplejwt.views import (
 )
 
 from app.swagger import schema_view
+# from app.core import views as core_views
+# from app.schedules import views as schedules_views
+# from app.workouts import views as workouts_views
 
 # Overriding AdminSite attributes.
 admin.site.site_header = admin.site.site_title = "back-end-biceps"
 
 # API URLs.
 router = routers.SimpleRouter()
+# router.register('core', core_views.CoreViewSet, basename='core')
+# router.register('schedules', schedules_views.SchedulesViewSet, basename='schedules')
+# router.register('workouts', workouts_views.WorkoutsViewSet, basename='workouts')
 
 urlpatterns = [
     path('admin/', admin.site.urls),  # Admin URLs

@@ -32,6 +32,9 @@ INSTALLED_APPS = [
     "debug_toolbar",
     "rest_framework",
     'rest_framework_simplejwt',
+    'app.core',
+    'app.schedules',
+    'app.workouts',
 ]
 
 MIDDLEWARE = [
