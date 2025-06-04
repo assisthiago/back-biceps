@@ -3,8 +3,6 @@
 **Lista de verificação.**
 - [ ] Testei as alterações localmente.
 - [ ] Segui as diretrizes de estilo de codificação (`black` e `isort`).
-- Atualizei os testes relevantes.
-  - [ ] Sim.
-  - [ ] Não foi necessário.
+- [ ] Atualizei os testes relevantes. (opcional)
 
 **Capturas de tela. (opcional)** *Se as alterações incluírem alguma modificação visual, forneça capturas de tela aqui.*
