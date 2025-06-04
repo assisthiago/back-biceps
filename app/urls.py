@@ -39,7 +39,8 @@ urlpatterns = [
         'api/token/verify/',
         TokenVerifyView.as_view(),
         name='token_verify'),  # JWT token verify URL
-]
+    path("api/core/", include("app.core.urls")),
+  ]
 
 # Include specific URLs, only on debug mode.
 if settings.DEBUG:
