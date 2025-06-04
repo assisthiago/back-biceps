@@ -39,7 +39,7 @@ jobs:
     - name: Create Coverage
       run: |
         coverage run --data-file=".github/coverage/.coverage" --source='.' manage.py test
-        coverage xml --show-missing --omit=urls.py,asgi.py,wsgi.py,manage.py,__init__.py --skip-covered --skip-empty --data-file=".github/coverage/.coverage" -o .github/coverage/coverage.xml
+        coverage xml  --data-file=".github/coverage/.coverage" -o .github/coverage/coverage.xml
     - name: Get Coverage
       uses: orgoro/coverage@v3.1
       with:
