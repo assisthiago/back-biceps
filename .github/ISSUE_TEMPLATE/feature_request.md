@@ -13,5 +13,5 @@ assignees:
 
 **Contexto adicional. (opcional)** *Adicione qualquer outro contexto ou capturas de tela sobre a solicitação de funcionalidade aqui.*
 
-**Tarefas.** *Adicione aqui a(s) tarefa(s) para ajudar na orientação e impletação da solução.*
+**Tarefas.** *Adicione aqui a(s) tarefa(s) para ajudar na orientação e implementação da solução.*
 - [ ] ...
