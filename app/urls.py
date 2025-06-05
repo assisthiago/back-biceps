@@ -22,6 +22,7 @@ admin.site.site_header = admin.site.site_title = "back-end-biceps"
 # API URLs.
 router = routers.SimpleRouter()
 router.register("users", core_views.UserViewSet, basename="user")
+router.register("students", core_views.StudentViewSet, basename="student")
 # router.register('schedules', schedules_views.SchedulesViewSet, basename='schedules')
 # router.register('workouts', workouts_views.WorkoutsViewSet, basename='workouts')
 

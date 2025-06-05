@@ -1,3 +1,4 @@
+import os
 from datetime import timedelta
 from pathlib import Path
 
@@ -124,9 +125,7 @@ LOGIN_URL = "/admin/login/?next=/admin/"
 INTERNAL_IPS = ["127.0.0.1"]
 
 # Fixtures
-FIXTURE_DIRS = [
-    "app/core/fixtures/user.json",
-]
+FIXTURE_DIRS = [f"app/core/fixtures/{_f}" for _f in os.listdir("app/core/fixtures")]
 
 # REST Framework
 REST_FRAMEWORK = {
